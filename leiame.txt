@@ -1,0 +1,13 @@
+Aluno: Vitor Hugo Brasiliense da Rosa NUSP: 11270890
+
+	Ola professor, comando para rodar o MakeFile: "make", o t da arvore B esta definido como 10 em uma constante no arquivo ArvoreB.h (b_tree_t) caso queira mudar,
+favor verificar se quando mudar o t, o tamanho do buffer vai ser suficiente para conseguir ler registros inteiros e NOs inteiros. O tamanho do buffer e outra constante 
+e ela se encontra no arquivo FileHandler.h como BUFFER_SIZE que deixei 500 por padrao.
+	Os arquivos binarios que meu programa cria sao 3, Index.txt, que armazena a arvore b e seus NOs, Registry.txt que armazena o cabecalho e os registros, 
+e o Registry_Temp.txt que e usado para copiar os conteudos do Registry.txt sem lixo de memoria apos a desfragmentacao, apos a copia, excluo o Registry.txt 
+e renomeio o Registry_Temp.txt para ser o novo Registry.txt.
+
+Usei o g++ versao 9.2.0 baixado com o mingw.
+
+Estive rodando o programa como aprendemos em aula, apos compilar executo o programa mudando a entrada padrao e usando comandos um por linha como voce havia feito no exemplo. 
+EP.exe < arquivo.txt
